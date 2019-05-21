@@ -1,3 +1,7 @@
+const Discord = require('discord.js')
+const client = new Discord.Client()
+const prefix = '#'
+
 client.on('message', message => {
 let args = message.content.split(" ");
 if(args.slice(0) == prefix + 'nicknameall')
@@ -17,7 +21,7 @@ let embed = new Discord.RichEmbed()
 }
 })
 
-const devs = ["429972030092476437"]
+const devs = ["your id"]
 
 const adminprefix = "#";
 client.on('message', message => {
@@ -99,3 +103,5 @@ m.send(msg)
 message.channel.send('Done :white_check_mark:');
 }
 });
+
+client.login('token here')
