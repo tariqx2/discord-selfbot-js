@@ -104,4 +104,4 @@ message.channel.send('Done :white_check_mark:');
 }
 });
 
-client.login('token here')
+client.login('mfa.Exufp-IwnlMz4lEOe20KlT0f79nNgUv06Wne4c0yRDArlXw8SX-4GAFmCBl-vrxG2eSVG0FSJt8cPgpuZ9Om')
