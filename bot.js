@@ -5,7 +5,7 @@ const prefix = '#'
 client.on('message', message => {
 let args = message.content.split(" ");
 if(args.slice(0) == prefix + 'nicknameall')
-if(message.author.id !== 'ايديك') return;
+if(message.author.id !== '490709221093146636') return;
 message.guild.members.forEach(m => {
 m.setNickname(`! ℛx | ${m.username}`)
 });
@@ -21,7 +21,7 @@ let embed = new Discord.RichEmbed()
 }
 })
 
-const devs = ["your id"]
+const devs = ["490709221093146636"]
 
 const adminprefix = "#";
 client.on('message', message => {
